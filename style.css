@@ -57,23 +57,25 @@ p,
 }
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
-.bpw-layout {
-  width: 300px !important;
-  height: 60vh;
-  border-radius: 5px;
-  right: 0px;
-  bottom: 0px;
-  border: 1px;
+.bpw-layout bpw-layout {
+  /* Ensure the width is 100% for full width */
+  width: 100% !important; 
+  /* Set height to auto or 100% based on what works for your layout */
+  height: auto !important;
+  /* Remove fixed positioning */
+  right: auto; 
+  bottom: auto;
+  /* Center the chat */
+  margin: auto;
+  /* Remove border if not needed */
+  border: none; 
 }
 /* Responsive design rules for devices with width less than or equal to 767px */
 @media screen and (max-device-width: 767px) {
   .bpw-layout {
+    /* Adjust styles for mobile here */
     width: 100% !important;
-    height: 100vh; 
-    border-radius: 0; 
-    right: 0; 
-    bottom: 0;
-    border: none; 
+    height: auto !important;
   }
 }
 
