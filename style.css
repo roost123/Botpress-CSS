@@ -195,16 +195,6 @@ a {
 }
 
 
-/* Styling for the hyperlinks in the 'powered by' section of the chat interface */
-.bpw-powered a {
-  color: #000000;
-  text-decoration: underline;
-}
-
-/* Styling for hover effect on the hyperlinks in the 'powered by' section of the chat interface */
-.bpw-powered a:hover {
-  text-decoration: underline;
-}
 
 .bpw-send-button{
   background: #000000;
