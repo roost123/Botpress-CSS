@@ -23,7 +23,7 @@ p,
 
 /* Styling for the chat header container */
 .bpw-header-container {
-  margin: 10px;
+  margin: 0px;
   background: #000000;
   border-radius: 10px;
   position: relative;
