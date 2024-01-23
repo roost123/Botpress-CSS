@@ -1,6 +1,7 @@
 /* This CSS rule sets the default font size of the entire document */
 html {
   font-size: 16px;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 /* These CSS rules sets the text direction of the paragraph (RTL or LTR) */
