@@ -58,17 +58,10 @@ p,
 
 /* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
 .bpw-layout bpw-layout {
-  /* Ensure the width is 100% for full width */
   width: 100% !important; 
-  /* Set height to auto or 100% based on what works for your layout */
-  height: auto !important;
-  /* Remove fixed positioning */
-  right: auto; 
-  bottom: auto;
-  /* Center the chat */
-  margin: auto;
-  /* Remove border if not needed */
-  border: none; 
+  height: 100% !important!
+  margin: 0 auto;
+  position: relative;
 }
 /* Responsive design rules for devices with width less than or equal to 767px */
 @media screen and (max-device-width: 767px) {
