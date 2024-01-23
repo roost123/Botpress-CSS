@@ -61,8 +61,8 @@ p,
   width: 300px !important;
   height: 60vh;
   border-radius: 5px;
-  right: 52px;
-  bottom: 52px;
+  right: 0px;
+  bottom: 0px;
   border: 1px;
 }
 /* Responsive design rules for devices with width less than or equal to 767px */
