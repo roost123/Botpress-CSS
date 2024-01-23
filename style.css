@@ -15,6 +15,12 @@ p,
   color: #000000;
 }
 
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
+  font-family: 'Helvetica', 'Arial', sans-serif;
 /* Changes the color of the new message indicator */
 .bpw-new-messages-indicator {
   background-color: #f5f5f5;
