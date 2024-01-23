@@ -25,11 +25,11 @@ p,
 .bpw-header-container {
   margin: 0px;
   background: #000000;
-  border-radius: 10px;
+  border-radius: 0px;
   position: relative;
   overflow: hidden;
   border: 1px;
-  border-radius: 5px;
+  border-radius: 0px;
   color: #000000;
 }
 
