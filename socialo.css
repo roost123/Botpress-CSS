@@ -234,8 +234,8 @@ width:undefinedpx !important;
     display: block;
     /* Positions the badge to the top right of the button */
     position: absolute;
-    right: 25px;
-    bottom: 100px;
+    right: 2px;
+    bottom: 60px;
     /* Sets the width and height of the badge */
     width: 20px;
     height: 20px;
