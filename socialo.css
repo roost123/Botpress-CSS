@@ -213,8 +213,8 @@ background:url(https://i.ibb.co/6Wq0NyB/Logo.png);
 background-repeat: no-repeat;
   background-position: center;
 background-size: contain;
-height:undefinedpx !important;
-width:undefinedpx !important;
+height:100px !important;
+width:100px !important;
 }
 
 .bpw-floating-button {
