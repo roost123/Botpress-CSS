@@ -125,7 +125,7 @@ a {
 /* Styling for the chat container, including color, scrollbar width and color, and border */
 .bpw-chat-container {
     width: 100%; /* Full width */
-    height: 100%; /* Full height */
+    height: 70%; /* Full height */
     background-color: #ffffff; /* Background color */
     scrollbar-width: thin; /* Scrollbar width */
     scrollbar-color: #f5f5f5 #ffffff; /* Scrollbar color */
