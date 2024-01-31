@@ -68,7 +68,7 @@ p,
   .bpw-layout {
     /* Adjust styles for mobile here */
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
   }
 }
 
