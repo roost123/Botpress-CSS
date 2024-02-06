@@ -76,7 +76,7 @@ p,
 .bpw-header-icon,
 .bpw-header-icon svg,
 .bpw-header-icon svg path {
-  fill: #ffffff !important;
+  fill: #276131 !important;
 }
 
 /* Changes the color of the placeholder text in the input message */
@@ -112,7 +112,7 @@ p,
 /* Styling for hover effect on the buttons in the chat interface */
 .bpw-button:hover,
 .bpw-button-alt:hover {
-  background-color: #f5f5f5;
+  background-color: #276131;
 }
 
 
@@ -128,7 +128,7 @@ a {
     height: 70%; /* Full height */
     background-color: #ffffff; /* Background color */
     scrollbar-width: thin; /* Scrollbar width */
-    scrollbar-color: #f5f5f5 #ffffff; /* Scrollbar color */
+    scrollbar-color: #276131 #ffffff; /* Scrollbar color */
     border: none; /* No border */
     background-color: #ffffff;
 }
@@ -164,8 +164,8 @@ a {
 /* Styling for the avatar of the bot */
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
-  background: #000000;
-  border: 3px solid #ffffff;
+  background: #276131;
+  border: 3px solid #276131;
 }
 
 /* Styling for the general scrollbar in the web page */
@@ -197,7 +197,7 @@ a {
 
 
 .bpw-send-button{
-  background: #000000;
+  background: #276131;
 }
 
 
@@ -205,7 +205,7 @@ a {
 
 .bpw-widget-btn{
   border-radius: 25%;
-  background: #FFFFFF;
+  background: #276131;
 }
 
 .bpw-floating-button::before {
