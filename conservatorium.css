@@ -24,13 +24,13 @@ p,
 /* Styling for the chat header container */
 .bpw-header-container {
   margin: 0px;
-  background: #000000;
+  background: #e45205;
   border-radius: 0px;
   position: relative;
   overflow: hidden;
   border: 0px;
   border-radius: 0px;
-  color: #000000;
+  color: #e45205;
 }
 
 .bpw-header-name{
@@ -39,7 +39,7 @@ p,
 
 /* Styling for the typing bubble */
 .bpw-typing-bubble {
-  background: #000000;
+  background: #e45205;
 }
 
 /* Styling for the chat bubble content */
@@ -76,7 +76,7 @@ p,
 .bpw-header-icon,
 .bpw-header-icon svg,
 .bpw-header-icon svg path {
-  fill: #276131 !important;
+  fill: #e45205 !important;
 }
 
 /* Changes the color of the placeholder text in the input message */
@@ -86,11 +86,11 @@ p,
 
 .bpw-composer textarea{
   outline: none !important;
-  border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(228,82,5,255);
 }
 .bpw-composer textarea:focus{
   outline: none !important;
-  border: 1px solid rgba(0,0,0,.30);
+  border: 1px solid rgba(228,82,5,255);
 }
 
 /* Styling for the keyboard single choice option */
@@ -112,7 +112,7 @@ p,
 /* Styling for hover effect on the buttons in the chat interface */
 .bpw-button:hover,
 .bpw-button-alt:hover {
-  background-color: #276131;
+  background-color: #e45205;
 }
 
 
@@ -128,7 +128,7 @@ a {
     height: 70%; /* Full height */
     background-color: #ffffff; /* Background color */
     scrollbar-width: thin; /* Scrollbar width */
-    scrollbar-color: #276131 #ffffff; /* Scrollbar color */
+    scrollbar-color: #e45205 #ffffff; /* Scrollbar color */
     border: none; /* No border */
     background-color: #ffffff;
 }
@@ -164,8 +164,8 @@ a {
 /* Styling for the avatar of the bot */
 .bpw-bot-avatar img,
 .bpw-bot-avatar svg {
-  background: #276131;
-  border: 3px solid #276131;
+  background: #e45205;
+  border: 3px solid #e45205;
 }
 
 /* Styling for the general scrollbar in the web page */
@@ -197,15 +197,15 @@ a {
 
 
 .bpw-send-button{
-  background: #276131;
+  background: #e45205;
 }
 
 
 /* Change Bot Widget Icon */
 
 .bpw-widget-btn{
-  border-radius: 25%;
-  background: #276131;
+  border-radius: 0%;
+  background: #e45205;
 }
 
 .bpw-floating-button::before {
