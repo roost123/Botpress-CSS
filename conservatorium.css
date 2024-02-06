@@ -56,7 +56,7 @@ p,
 /* Styling for the layout of the chat bubble. Width, height, border, position of the chat bubble */
 .bpw-layout bpw-layout {
   width: 100% !important; 
-  height: 60% !important;
+  height: 100% !important;
   margin: 0 auto;
   position: relative;
 }
@@ -66,7 +66,7 @@ p,
   .bpw-layout {
     /* Adjust styles for mobile here */
     width: 100% !important;
-    height: 80% !important;
+    height: 100% !important;
   }
 }
 
@@ -131,12 +131,14 @@ a {
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #f5f5f5;
   color: #000000;
+  border-radius: 0%;
 }
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #e45205;
   color: #ffffff;
+  border-radius: 0%;
 }
 
 /* Styling for the composer section of the chat interface */
