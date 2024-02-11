@@ -12,7 +12,7 @@ p,
 
 /* This rule changes the color of the text in the input message */
 #input-message {
-  color: #000000;
+  color: #967037;
 }
 
 /* Changes the color of the new message indicator */
@@ -24,13 +24,11 @@ p,
 /* Styling for the chat header container */
 .bpw-header-container {
   margin: 0px;
-  background: #000000;
-  border-radius: 0px;
+  background: #967037;
   position: relative;
   overflow: hidden;
   border: 0px;
-  border-radius: 0px;
-  color: #000000;
+  color: #967037;
 }
 
 .bpw-header-name{
@@ -39,13 +37,12 @@ p,
 
 /* Styling for the typing bubble */
 .bpw-typing-bubble {
-  background: #000000;
+  background: #967037;
 }
 
 /* Styling for the chat bubble content */
 .bpw-chat-bubble-content {
   background-color: #f5f5f5;
-  border-radius: 1.5px;
   border: 1px transparent;
 }
 
@@ -56,19 +53,20 @@ p,
   color: #ffffff;
 }
 
-/* Styling for the layout of the chat bubble. Width, height, border, position and radius of the chat bubble */
+/* Styling for the layout of the chat bubble. Width, height, border, position of the chat bubble */
 .bpw-layout bpw-layout {
   width: 100% !important; 
-  height: 60% !important!
+  height: 100% !important;
   margin: 0 auto;
   position: relative;
 }
+
 /* Responsive design rules for devices with width less than or equal to 767px */
 @media screen and (max-device-width: 767px) {
   .bpw-layout {
     /* Adjust styles for mobile here */
     width: 100% !important;
-    height: 80% !important;
+    height: 100% !important;
   }
 }
 
@@ -76,7 +74,7 @@ p,
 .bpw-header-icon,
 .bpw-header-icon svg,
 .bpw-header-icon svg path {
-  fill: #ffffff !important;
+  fill: #967037 !important;
 }
 
 /* Changes the color of the placeholder text in the input message */
@@ -86,11 +84,11 @@ p,
 
 .bpw-composer textarea{
   outline: none !important;
-  border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(150,112,55,255);
 }
 .bpw-composer textarea:focus{
   outline: none !important;
-  border: 1px solid rgba(0,0,0,.30);
+  border: 1px solid rgba(150,112,55,255);
 }
 
 /* Styling for the keyboard single choice option */
@@ -104,17 +102,14 @@ p,
 .bpw-button-alt {
   background-color: #dcdcdc;
   color: #000000;
-  border-radius: 5px;
   border: none;
 }
-
 
 /* Styling for hover effect on the buttons in the chat interface */
 .bpw-button:hover,
 .bpw-button-alt:hover {
-  background-color: #f5f5f5;
+  background-color: #967037;
 }
-
 
 /* Styling for hyperlinks in the chat interface */
 a {
@@ -125,24 +120,25 @@ a {
 /* Styling for the chat container, including color, scrollbar width and color, and border */
 .bpw-chat-container {
     width: 100%; /* Full width */
-    height: 70%; /* Full height */
+    height: 100%; /* Full height */
     background-color: #ffffff; /* Background color */
     scrollbar-width: thin; /* Scrollbar width */
-    scrollbar-color: #f5f5f5 #ffffff; /* Scrollbar color */
+    scrollbar-color: #967037 #ffffff; /* Scrollbar color */
     border: none; /* No border */
-    background-color: #ffffff;
 }
 
 /* Styling for the chat bubble content when it's from the bot */
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
   background-color: #f5f5f5;
   color: #000000;
+  border-radius: 0%;
 }
 
 /* Styling for the chat bubble content when it's from the user */
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content {
-  background-color: #000000;
+  background-color: #967037;
   color: #ffffff;
+  border-radius: 0%;
 }
 
 /* Styling for the composer section of the chat interface */
@@ -152,20 +148,12 @@ a {
     border-top: none; /* No border on top */
 }
 
-
 /* Styling for the scrollbar in the chat container */
 .bpw-chat-container::-webkit-scrollbar,
 .bpw-chat-container::-moz-scrollbar {
   width: 10px;
   background-color: #ffffff;
   border: none;
-}
-
-/* Styling for the avatar of the bot */
-.bpw-bot-avatar img,
-.bpw-bot-avatar svg {
-  background: #000000;
-  border: 3px solid #ffffff;
 }
 
 /* Styling for the general scrollbar in the web page */
@@ -185,7 +173,7 @@ a {
 .bpw-chat-container::-webkit-scrollbar-thumb,
 .bpw-chat-container::-moz-scrollbar-thumb {
   background-color: #ffffff;
-  border-radius: 1rem;
+  border-radius: 0px; /* Straight edges */
   border: 0.5rem solid transparent;
 }
 
@@ -194,27 +182,22 @@ a {
   fill: #000000;
 }
 
-
-
 .bpw-send-button{
-  background: #000000;
+  background: #967037;
 }
 
-
 /* Change Bot Widget Icon */
-
 .bpw-widget-btn{
-  border-radius: 25%;
-  background: #FFFFFF;
+  background: #967037;
 }
 
 .bpw-floating-button::before {
-background:url(https://i.ibb.co/6Wq0NyB/Logo.png);
-background-repeat: no-repeat;
+  background:url(https://nidum.nl/app/uploads/sites/2/2021/10/Nidum-Boetiekhotel3.svg);
+  background-repeat: no-repeat;
   background-position: center;
-background-size: contain;
-height:undefinedpx !important;
-width:undefinedpx !important;
+  background-size: contain;
+  height:undefinedpx !important;
+  width:undefinedpx !important;
 }
 
 .bpw-floating-button {
@@ -225,29 +208,16 @@ width:undefinedpx !important;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
 }
 
-// .bpw-floating-button > i {
-// display: none;
-// }
-
 .bpw-floating-button .bpw-floating-button-unread {
-    /* Displays the notification badge */
     display: block;
-    /* Positions the badge to the top right of the button */
     position: absolute;
     right: 2px;
     bottom: 54px;
-    /* Sets the width and height of the badge */
     width: 20px;
     height: 20px;
-    /* Rounds the corners of the badge to make it circular */
-    border-radius: 50%;
-    /* Centers the text inside the badge */
+    border-radius: 0%; /* Straight edges */
     line-height: 20px;
- 
-    /* Sets the color of the text inside the badge */
     color: #fff;
-    /* Sets the background color of the badge */
     background-color: #ff5d5d;
-    /* Adds a shadow effect to the badge */
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
 }
